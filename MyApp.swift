@@ -58,9 +58,9 @@ func recognizeText(from image: CGImage) -> String {
         }
     }
     
-    request.recognitionLevel = .fast  // You can try `.accurate` if results are still bad
+    request.recognitionLevel = .accurate 
     request.usesLanguageCorrection = true
-    request.recognitionLanguages = ["en-US"] // Use ["pt-BR"] for Portuguese
+    request.recognitionLanguages = ["pt-BR", "en-US"]
 
     let handler = VNImageRequestHandler(cgImage: image, options: [:])
     do {
