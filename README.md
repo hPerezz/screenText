@@ -1,4 +1,4 @@
-# Screen2Text
+# screenText
 
 A macOS utility that captures a selected area of your screen and extracts text from it using OCR (Optical Character Recognition). The extracted text is automatically copied to your clipboard for easy use.
 
